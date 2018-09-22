@@ -5,9 +5,9 @@ class Room
 
   def initialize(name, spaces_left=10)
     @name = name
+    @price = 20
     @occupants = []
     @spaces_left = spaces_left
-    @price = 20
     @current_song = []
     @played_songs = []
   end
